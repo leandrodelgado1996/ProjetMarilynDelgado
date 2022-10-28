@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+
+/*css reset*/
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    background-color: #B52B65;
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 50px;
+}
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+    background-color: #3C2C3E ;
+}
+
+#accueil{
+   background-color: #59405C;
+}
+
+#aproposdemoi{
+     background-color: #ED6663;
+}
+
+
+#tarifs{
+     background-color: #3C2C3E;
+}
+
+#contact{
+     background-color: #B52B65;
+}
+
+h1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(243, 243, 243);
+    font-size: 500%;    
+}
+
+h2 {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 30;
+    font-size: 220%;
+}
+#diploma{
+    position: absolute;
+    top: 10%;
+    right: 70%;
+    border-radius: 10%;
+    height: 80%;
+    width: 22%;
+}
+#logo{
+    height: 70%;
+    width: 80%;
+    border-radius: 10%;
+}
+#mainsjeunevieux{
+    position: absolute;
+    top: 2%;
+    right: 120%;
+    border-radius: 10%;
+ 
+}
+
+
+
+
+
+
+
+
+
